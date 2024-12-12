@@ -1,0 +1,7 @@
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: Hal Timezone;
+    font-style: mono;
+    src: url('./HALTimezone-MonoRegular.otf');
+}
