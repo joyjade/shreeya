@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # PHP & Apache service
+  app:
+    build: .
+    container_name: kirby-app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html # Mount the local project directory to the container
+    environment:
+      - VIRTUAL_HOST=localhost
+    networks:
+      - app-network
+
+# Networks
+networks:
+  app-network:
+    driver: bridge
