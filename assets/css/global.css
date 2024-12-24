@@ -45,10 +45,18 @@ p {
 
 body {
 	font-family: var(--font-family);
+  padding: 1rem;
+  background-color: khaki;
 }
 
-nav {
+nav.phrase {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
 
+nav.phrase a:hover {
+  font-style: italic;
 }
 
 /* TYPOGRAPHY */

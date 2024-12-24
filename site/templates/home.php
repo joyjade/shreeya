@@ -1,3 +1,3 @@
-<?php snippet('nav') ?>
+<?php snippet('nav_phrase') ?>
 
 <?php snippet('footer') ?>
